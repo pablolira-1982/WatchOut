@@ -1,0 +1,22 @@
+# Android/Gradle local state
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Modelos LiteRT: distribuídos separadamente, nunca pelo Git
+*.litertlm
+
+# Dumps, perfis e ficheiros temporários
+*.hprof
+*.profraw
+*.partial
+
+# APK/AAB locais
+*.apk
+*.aab
